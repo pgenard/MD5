@@ -2,7 +2,7 @@
 
 ## About
 
-This **MD5** Crypto-Accelerator eats at most **440-bits** messages and returns **128-bits** fixed length hash.
+This **MD5** Crypto-Accelerator eats at most **440-bits** messages and returns **128-bits** fixed length hashes.
 
 Its implementation is based on the pseudo-code from the French and English **Wikipedia** pages.
 It is an iterative design (loop on rounds).
@@ -29,9 +29,6 @@ make build
 ```
 
 ### Waveforms
-
-Correct hashes are printed on standard output.
-
 ```bash
 make waves
 [...]

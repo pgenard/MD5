@@ -28,30 +28,6 @@ int main(int argc, char** argv, char** env) {
       dut->start = 1;
       dut->enc = 1;
 
-      /* Écrire le message */
-      
-      /* 0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef */
-
-      /* dut->message[15] = 0x01234567;
-      dut->message[14] = 0x89abcdef;
-      dut->message[13] = 0x01234567;
-      dut->message[12] = 0x89abcdef;
-
-      dut->message[11] = 0x01234567;
-      dut->message[10] = 0x89abcdef;
-      dut->message[9] = 0x01234567;
-      dut->message[8] = 0x89abcdef;
-
-      dut->message[7] = 0x01234567;
-      dut->message[6] = 0x89abcdef;
-      dut->message[5] = 0x01234567;
-      dut->message[4] = 0x89abcdef;
-
-      dut->message[3] = 0x01234567;
-      dut->message[2] = 0x89abcdef;
-      dut->message[1] = 0x01234567;
-      dut->message[0] = 0x89abcdef; */
-
       dut->message[15] = 0x0;
       dut->message[14] = 0x000001b8;
       dut->message[13] = 0x80363534;
